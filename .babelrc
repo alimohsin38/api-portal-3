@@ -1,0 +1,30 @@
+{
+  "presets": [
+      [
+          "env",
+          {
+              "modules": false,
+              "targets": {
+                  "browsers": [
+                      "iOS >= 11",
+                      "ChromeAndroid >= 63",
+                      "Chrome >= 56",
+                      "Edge >= 14",
+                      "Firefox >= 57",
+                      "Safari >= 11"
+                  ]
+              }
+          }
+      ],
+      "react"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread"
+  ],
+  "env": {
+    "production": {
+      "plugins": ["transform-react-remove-prop-types"]
+    }
+  }
+}

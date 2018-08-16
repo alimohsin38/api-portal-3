@@ -1,0 +1,3 @@
+{
+  "extends": ["@abc/eslint-config-abc/node"]
+}

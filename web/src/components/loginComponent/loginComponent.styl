@@ -1,0 +1,85 @@
+.passwordEye
+	top: 0
+	>i
+		line-height: inherit
+		cursor: pointer
+		position: relative
+		top: 8px
+	
+.loginForm
+	display: block
+	margin: 0 auto
+	background-color: transparent
+	padding: 25px 15px
+	box-sizing: border-box
+	width: 95%
+
+.submit
+	color: var(--buttonPrimaryHoverBackground)
+	background: var(--buttonPrimaryHoverText)
+	border-color: var(--buttonPrimaryHoverBorder)
+	border: 0
+	text-transform: uppercase
+	font-size: 15px
+	margin: 0
+	padding: 12px 22px
+	box-shadow: 0 0 1px #444
+	display: inline-block
+	float: right
+	cursor: pointer
+	width: auto
+	transition: all .3s 0s
+	min-width: auto
+	min-height: auto
+	height: auto
+	&:hover, &:focus, &:active
+		color: var(--buttonPrimaryHoverBackground)
+		background: var(--buttonPrimaryHoverText)
+		border-color: var(--buttonPrimaryHoverBorder)
+    
+.heading
+	color: #000
+	text-align: center
+	font-size: 29px
+	font-weight: 400
+	margin: 5px 0
+
+.validContainer
+	display: flex
+	position: relative
+	width: 100%
+	height: auto
+	align-items: center
+	justify-content: center
+	
+	> .loginValidation
+		color: var(--fontPrimary)
+		margin: 0 0 5px
+		display: flex
+		font-size: 15px
+	
+.incorrectfield
+	display: flex
+	position: relative
+	width: 100%
+	height: auto
+	
+	> .loginValidation
+		color: var(--fontPrimary)
+		margin: 0 0 5px
+		display: flex
+		font-size: 15px
+		padding: 0 3px
+
+.addBorder
+	border: 2px solid #ccc7c7
+	border-radius: 5px
+	
+.formGroup
+	margin: 0 0 10px
+	
+.show
+	visibility: visible
+	
+.hide
+	visibility: hidden
